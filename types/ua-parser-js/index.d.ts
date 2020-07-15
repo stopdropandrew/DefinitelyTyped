@@ -57,8 +57,8 @@ declare namespace IUAParser {
     export interface IEngine {
         /**
          * Possible name:
-         * Amaya, EdgeHTML, Gecko, iCab, KHTML, Links, Lynx, NetFront, NetSurf, Presto,
-         * Tasman, Trident, w3m, WebKit
+         * Amaya, Blink, EdgeHTML, Goanna, Gecko, iCab, KHTML, Links, Lynx, NetFront,
+         * NetSurf, Presto, Tasman, Trident, w3m, WebKit
          */
         name: string | undefined;
         /**
